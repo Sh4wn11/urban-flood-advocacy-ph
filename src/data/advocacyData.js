@@ -852,3 +852,87 @@ export const REFERENCES_DATA = {
     },
   ],
 };
+
+export const BLOGS_DATA = {
+  eyebrow: 'FIELD NOTES & PERSONAL REFLECTIONS',
+  headline: 'Voices from the Floodplains: Personal Advocacy Logs',
+  intro:
+    'Beyond macroeconomic metrics and pumping station telemetry lies the lived reality of navigating flooded streets, sachet-choked esteros, and community resilience.',
+  posts: [
+    {
+      id: 'blog-sheet-1',
+      photoPosition: 'top-left', // Entry 1: Small square picture at top-left
+      entryCode: 'LOG #01 • PERSONAL BLOG',
+      title: 'Wading Through the Sachet Tide',
+      author: 'Shawn Justin Fabillar',
+      role: 'Lead Developer & Flood Advocate',
+      date: 'November 2026',
+      location: 'Cavite',
+      // Place your image inside the public/ folder (e.g., public/blog-photo-1.jpg)
+      imagePath: 'shawn.png',
+      imageCaption: 'Image by storyset.com/people',
+      paragraphs: [
+        "You just finished eating a pack of biscuits, and you find yourself in a place where no public trash cans are nearby. What will you do? You might think that you can just throw it anywhere because it's not like one piece of plastic sachet will do much—and most people think that way, too.",
+        "Although one single plastic sachet does, in fact, have almost no impact on the environment, an estimated 164 million sachets are discarded daily in the Philippines (GAIA, 2019). It is also a fact that multilayered flexible plastics have almost no recycling value; consequently, most sachets are left uncollected and end up directly in street gutters, storm drains, and esteros, forming impermeable plastic mats inside drainage networks (GAIA, 2019). How does this affect you? When plastic combines with topsoil and forms trash mats, it chokes our esteros, river tributaries, and, most of all, our pumping stations. Unable to discharge, stormwater surges backward through our drainage pipes, submerging neighborhoods in floods.",
+        "What can you do? First, practice personal accountability by holding onto your empty wrappers until you find a proper disposal bin. Next, try to reduce your reliance on single-use plastics by buying in bulk or switching to reusable containers whenever possible. You can also advocate for better local waste management systems and support policies that hold corporations accountable for the packaging they produce. While holding onto one small wrapper might seem insignificant, our collective habits are the key to breaking the cycle of urban flooding. By making mindful choices today, we can keep our streets clear and our communities safe from rising waters.",
+      ],
+      signature: '— Shawn Justin Fabillar',
+    },
+    {
+      id: 'blog-sheet-2',
+      photoPosition: 'top-left', // Entry 2: Small square picture at bottom-right
+      entryCode: 'LOG #02 • PERSONAL BLOG',
+      title: 'Unclogging Our Future: Turning Frustration Into Flood Resilience',
+      author: 'Krislenina Brin-Dieta',
+      role: 'Researcher & Flood Advocate',
+      date: 'November 2026',
+      location: 'National Capital Region',
+      // Place your second image inside the public/ folder (e.g., public/blog-photo-2.jpg)
+      imagePath: 'kris.png',
+      imageCaption: 'Image by storyset.com/people',
+      paragraphs: [
+        "If you live anywhere near Metro Manila or along the river basins of Luzon, Visayas, and Mindanao, you know the dread that comes with a sudden monsoon downpour. It starts with heavy rain tapping on the roof, and within an hour, streets turn into rivers, commuters are stranded, and families are scrambling to move their belongings to higher ground. For a long time, we’ve treated this cycle of urban flooding as an unavoidable part of Filipino life—a simple matter of bad weather.",
+        "When our group started digging into the real data behind these persistent inundations for our environmental advocacy project, Urban Flood Advocacy PH, we realized something sobering: the rain isn’t the sole villain here. Every single day, roughly 350 tons of trash flow directly into Metro Manila’s major esteros and drainage channels. Across the country, we generate around 2.7 million tons of plastic waste annually, with nearly 20% ending up in our waters. Combined with 457 million tons of topsoil loss and river siltation every year, our waterways are literally suffocating. Even with 71 active pumping stations in Metro Manila, clogged drains create a massive 60% pumping capacity deficit. When the water has nowhere to go, it spills into our communities—triggering a 240% post-flood spike in deadly waterborne diseases like leptospirosis and dengue, and costing our economy an estimated ₱2.4 billion every single day a flood paralyzes the metro. Most heartbreaking of all, 62% of the workforce hit hardest by these shutdowns are daily-wage earners and informal sector workers.",
+        "That is why we built our digital advocacy platform. We didn't want to just present grim statistics; we wanted to show that our drainage crisis is actually a governance and habit crisis—and that means it is solvable. Between January and June 2025 alone, DENR-NCR cleared over 872,625 sacks of garbage from Metro Manila waterways, while MMDA rehabilitated 40 waterways through Bayanihan sa Estero. Add to that 196 newly deployed trash traps and improved waste programs across 85 barangays, and you can see that change is possible when communities and agencies move together. True flood resilience doesn’t start when the typhoon signal is raised; it starts at our own kitchen sinks and neighborhood corners. While we push for stricter enforcement of RA 9003 (our Ecological Solid Waste Management Act) and hold corporations accountable under RA 11898 (the Extended Producer Responsibility Act) to recover 60% to 80% of their plastic packaging, each of us has a role to play. Segregating waste at home, refusing single-use sachets when alternatives exist, keeping our local esteros free of litter, and signing our community pledge to demand stronger local enforcement are small steps that save lives downstream. Let’s stop blaming the rain for a mess we can clean up together.",
+      ],
+      signature: '— Krislenina Brin-Dieta',
+    },
+  ],
+};
+
+export const CONTRIBUTIONS_DATA = {
+  eyebrow: 'PROJECT ATTRIBUTION & DEVELOPMENT LOG',
+  headline: 'Contribution Sheet',
+  intro:
+    'Documentation of individual research, systems architecture, UI/UX engineering, and content authoring across the Urban Flood Advocacy PH portal.',
+  // 2 Contributor Cards (Edit names, roles, and logs manually below)
+  members: [
+    {
+      id: 'contributor-1',
+      slotNumber: '',
+      name: 'Shawn Justin Fabillar',
+      role: '[Lead Developer & Architect]',
+      handleOrId: '',
+      statusBadge: '01',
+      accent: 'amber',
+      logs: [
+        'Solutions & Preparedness Researcher',
+        'Website Architecture & UI/UX',
+        'Website Development & Deployment',
+      ],
+    },
+    {
+      id: 'contributor-2',
+      slotNumber: '',
+      name: 'Krislenina Brin-Dieta',
+      role: '[Lead Researcher]',
+      handleOrId: '',
+      statusBadge: '02',
+      accent: 'teal',
+      logs: [
+        'Causes & Context Researcher',
+        'Data Analysis & Visualization',
+      ],
+    },
+  ],
+};

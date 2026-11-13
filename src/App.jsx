@@ -8,7 +8,9 @@ import GovernanceTiers from './components/sections/GovernanceTiers';
 import SolutionsSynergy from './components/sections/SolutionsSynergy';
 import CitizenReadiness from './components/sections/CitizenReadiness';
 import AdvocacyPledge from './components/sections/AdvocacyPledge';
+import PersonalBlogs from './components/sections/PersonalBlogs';
 import FooterReferences from './components/layout/FooterReferences';
+import ContributionSheet from './components/layout/ContributionSheet';
 
 export default function App() {
   return (
@@ -24,8 +26,10 @@ export default function App() {
         <SolutionsSynergy />
         <CitizenReadiness />
         <AdvocacyPledge />
+        <PersonalBlogs />
       </main>
       <FooterReferences />
+      <ContributionSheet />
     </div>
   );
 }
